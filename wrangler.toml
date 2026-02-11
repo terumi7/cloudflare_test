@@ -4,7 +4,7 @@ compatibility_date = "2026-02-11"
 
 [[kv_namespaces]]
 binding = "IntegrationConfigKV"
-id = "あなたのKVのID" # ← ここにCloudflareで作ったKVのIDを貼る
+id = "8e00e10eb3ab405591634680ef25c74e" # ← ここにCloudflareで作ったKVのIDを貼る
 
 [vars]
 CUSTOMER_ID = "YOUR_ID"
