@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@queue-it/cloudflare": "latest"
+  }
+}
