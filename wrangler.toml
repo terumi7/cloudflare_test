@@ -1,12 +1,10 @@
-# wrangler.toml (Cloudflare Workersの設計図)
-name = "queue-it-connector"
+name = "cloudflaretest"
 main = "src/index.js"
 compatibility_date = "2026-02-11"
 
-# ここがポイント！KVとの配線
 [[kv_namespaces]]
-binding = "IntegrationConfigKV"  # コード内で使う名前
-id = "xxxx"                      # Cloudflareダッシュボードで作成したIDを貼る
+binding = "IntegrationConfigKV"
+id = "あなたのKVのID" # ← ここにCloudflareで作ったKVのIDを貼る
 
 [vars]
 CUSTOMER_ID = "YOUR_ID"
