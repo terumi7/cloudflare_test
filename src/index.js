@@ -14,6 +14,6 @@ export default {
     }
     
     // 判定OKなら、本来のサイトを表示する
-    return fetch(request);
+return fetch("https://あなたのページ名.pages.dev");
   }
 };
